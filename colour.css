@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: monospace;
+    background-image: url(desktop-wallpaper-homepage-html5-background.jpg);
+    background-size: cover;
+}
+nav{
+    background: rgb(96, 68, 173);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: rgb(107, 107, 216);
+    transition: .5s;
+}
+.photo{
+    background-image: url(image.png);
+    align-items: center;
+    height: 700px;
+    width: 1200px;             
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+#heading_for_home{
+    margin-top: 100px;
+    margin-left: 850px;
+    margin-right: auto;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+#intro_head{
+    text-align: center;
+}
+#intro{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#two_intro_head{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#two_intro{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+#p{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px ;
+}
+#p2{
+    margin-left: 450px;
+}
+

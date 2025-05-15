@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+
+}
+body{
+    font-family: monospace;
+    background-image: url(IMG_0292.png);
+    background-size: cover;
+
+
+}
+nav{
+    background: rgb(96, 68, 173);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: rgb(107, 107, 216);
+    transition: .5s;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: rgb(126, 111, 111);
+}
+
+th{
+    border: 5px solid;
+    height: 80px;
+    width: 200px;
+    font-size: 23px;
+}
+
+td{
+    background-color: gray;
+    height: auto;
+    width: 300px;
+    font-size: 20px;
+    color: rgb(235, 225, 225);
+    border: 5px solid;
+    border-color: black;
+}
+.top{
+    margin-left: 860px;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: 0%;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+
